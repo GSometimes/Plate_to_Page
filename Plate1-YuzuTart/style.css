@@ -66,7 +66,7 @@
 .banner header .toggle {
     position: relative;
     width: 36px;
-    height: 28px;
+    height: 36px;
     color: white;
 }
 
@@ -316,5 +316,58 @@
         text-align: center;
     }
 
-    
+    .services {
+        padding: 50px;
+    }
+
+    .services .container {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .services .container .serviceBx {
+        margin: 20px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .technology {
+        padding: 50px;
+        padding-top: 300px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .technology .imgBx {
+        margin-top: 40px;
+        max-width: 250px;
+    }
+
+    .client {
+        padding: 50px;
+    }
+
+    .client .imgBx {
+        justify-content: center;
+    }
+
+    .testimonials {
+        padding: 50px;
+    }
+
+    .testimonials .contentBx {
+        padding: 60px 40px;
+        max-width: 550px;
+        margin-bottom: 40px;
+    }
+
+    .testimonials .contentBx:last-child {
+        margin-bottom: 0px;
+    }    
+
+    .footer {
+        padding: 20px 50px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 }
