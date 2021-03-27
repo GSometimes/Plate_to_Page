@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Slab', serif;
 }
+
 
 .banner {
     position: relative;
@@ -13,8 +14,9 @@
     height: 100vh;
     background: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    font-family: 'Josefin Slab', serif;
 }
 
 .banner img {
@@ -27,15 +29,33 @@
     opacity: 0.25;
 }
 
+#dish {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    opacity: 1;
+    border: 5px solid white;
+    padding: 10px;
+}
+
 .banner .content {
     position: relative;
-    max-width: 750px;
+    width: 1000px;
+    height: 400px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner .content h2 {
     color: #fff;
-    font-size: 60px;
+    font-size: 65px;
+    position: absolute;
+    padding-left: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
 .banner .content p {
@@ -60,7 +80,7 @@
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .banner header .toggle {
