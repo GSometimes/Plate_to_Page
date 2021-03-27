@@ -12,7 +12,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: black;
+    background: #31363D;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -34,7 +34,7 @@
     width: 400px;
     position: absolute;
     opacity: 1;
-    border: 5px solid white;
+    border: 5px solid #EEE6D3;
     padding: 10px;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .banner .content h2 {
-    color: #fff;
+    color: #EEE6D3;
     font-size: 65px;
     position: absolute;
     padding-left: 300px;
@@ -75,7 +75,7 @@
 }
 
 .banner header .logo {
-    color: #fff;
+    color: #EEE6D3;
     text-decoration: none;
     font-size: 24px;
     text-transform: uppercase;
@@ -87,7 +87,7 @@
     position: relative;
     width: 36px;
     height: 36px;
-    color: white;
+    color: #EEE6D3;
 }
 
 .about {
@@ -97,40 +97,45 @@
 }
 
 .about .contentBx {
-    background: #162c3b;
-    padding: 100px;
+    background: #31363D;
+    padding: 115px;
     width: 50%;
+    margin: 0 auto;
 }
 
 .heading {
-    color: #fff;
+    color: #EEE6D3;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
 }
 
 .text {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 300;
+    color: #EEE6D3;
+    font-size: 14px;
     letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about .imgBx {
-    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1613457429/Portfolio1/image3-1_l85pnv.jpg');
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1616886809/Plate%20to%20Page/Michelin-Star_lb8pfo.jpg');
     width: 50%;
     background-size: cover;
     background-position: center;
+    background-position-y: 40%;
 }
 
-.services {
+
+.ingredients {
     background: #12222d;
     padding: 100px;
     text-align: center;
 }
 
-.services .container {
+.ingredients .container {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -139,7 +144,7 @@
     margin-top: 60px;
 }
 
-.services .container .serviceBx {
+.ingredients .container .ingredientBx {
     position: relative;
     background: #fff;
     width: 350px;
@@ -149,11 +154,13 @@
     align-items: center;
 }
 
-.services .container .serviceBx img {
-    max-width: 100px;
+.ingredients .container .ingredientBx img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
-.services .container .serviceBx h2 {
+.ingredients .container .ingredientBx h2 {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 1px;
