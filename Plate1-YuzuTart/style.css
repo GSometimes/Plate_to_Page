@@ -36,7 +36,7 @@
     width: 400px;
     position: absolute;
     opacity: 1;
-    border: 5px solid #EEE6D3;
+    border: 5px solid #452191;
     padding: 10px;
 }
 
@@ -149,16 +149,17 @@
     position: relative;
     background: #FDD200;
     width: 350px;
+    height: 375px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #452191;
-    padding: 10px;
+    color: #A50B17;
+    padding: 20px;
 }
 
 .ingredients .container .ingredientBx:nth-child(2){
-    background: #EEE6D3;
-    color: #A50B17;
+    background: #452191;
+    color: #EEE6D3;
 }
 
 .ingredients .container .ingredientBx:nth-child(3){
@@ -194,6 +195,7 @@
 
 .ingredientlist p {
     padding: 5px;
+    color: #FDD200;
 }
 
 .ingredientlist ul {
@@ -222,10 +224,12 @@
 
 .process p {
     padding: 5px;
+    color: #FDD200;
+
 }
 
 .history {
-    background: #3f8ffc;
+    background: #31363D;
     padding: 100px;
     padding-top: 300px;
     margin-top: -300px;
@@ -234,80 +238,18 @@
     align-items: center;
 }
 
-.history .imgBx {
-    max-width: 250px;
-}
-
-/* .history .imgBx img {
-    max-width: 100%;
-} */
-
-/* .client {
-    background: #162c3b;
-    padding: 100px;
-    text-align: center;
-}
-
-.client .imgBx {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    background: #fff;
-}
-
-.client .imgBx img {
-    max-width: 200px;
-    margin: 20px;
-    opacity: .25;
-}
-
-.client .imgBx img:hover {
-    opacity: 1;
-}
-
-.testimonials {
-    position: relative;
-    padding: 100px;
-    background: #12222d;
-    text-align: center;
-}
-
-.testimonials .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
-    flex-wrap: wrap;
-}
-
-.testimonials .container .contentBx {
-    background: #fff;
-    padding: 60px 50px;
-    width: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-}
-
-.testimonials .container .contentBx p {
-    font-style: italic;
-}
-
-.testimonials .container .contentBx h3 {
-    width: 100%;
-    text-align: end;
-    font-weight: 500;
-    color: #3f8ffc;
-    padding-top: 10px;
-} */
 
 .contact {
     padding: 100px;
-    background: #162c3b;
+    background: #FDD200;
     text-align: center;
+}
+
+.thankyoutext {
+    color: #A50B17;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 900;
 }
 
 .imgBx2 {
