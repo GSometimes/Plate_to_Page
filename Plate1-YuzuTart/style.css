@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -93,12 +95,13 @@
 .about {
     position: relative;
     width: 100%;
+    height: auto;
     display: flex;
 }
 
 .about .contentBx {
     background: #31363D;
-    padding: 115px;
+    padding: 100px;
     width: 50%;
     margin: 0 auto;
 }
@@ -117,7 +120,6 @@
     color: #EEE6D3;
     font-size: 14px;
     letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .about .imgBx {
@@ -146,12 +148,21 @@
 
 .ingredients .container .ingredientBx {
     position: relative;
-    background: #fff;
+    background: #FDD200;
     width: 350px;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.ingredients .container .ingredientBx:nth-child(2){
+    background: #EEE6D3;
+}
+
+.ingredients .container .ingredientBx:nth-child(3){
+    background: #A50B17;
 }
 
 .ingredients .container .ingredientBx img {
