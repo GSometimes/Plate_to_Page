@@ -189,7 +189,7 @@
 
 .ingredientlist {
     border: 2px solid #EEE6D3;
-    width: 500px;
+    width: 400px;
     padding: 10px;
 }
 
@@ -202,9 +202,9 @@
     list-style: none;
     padding: 10px;
     font-size: 14px;
-    text-align: start;
-    margin-left: 125px;
+    text-align: center;
 }
+
 
 .process {
     border: 2px solid #EEE6D3;
@@ -225,7 +225,6 @@
 .process p {
     padding: 5px;
     color: #FDD200;
-
 }
 
 .history {
@@ -339,63 +338,30 @@
     .about .contentBx,
     .about .imgBx {
         width: 100%;
-        padding: 50px;
+        padding: 75px;
         min-height: 400px;
-        text-align: center;
     }
 
-    .services {
-        padding: 50px;
-    }
-
-    .services .container {
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .services .container .serviceBx {
-        margin: 20px;
-        width: 300px;
-        height: 350px;
-    }
-
-    .technology {
-        padding: 50px;
-        padding-top: 300px;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .technology .imgBx {
-        margin-top: 40px;
-        max-width: 250px;
-    }
-
-    .client {
-        padding: 50px;
-    }
-
-    .client .imgBx {
-        justify-content: center;
-    }
-
-    .testimonials {
-        padding: 50px;
-    }
-
-    .testimonials .contentBx {
-        padding: 60px 40px;
-        max-width: 550px;
-        margin-bottom: 40px;
-    }
-
-    .testimonials .contentBx:last-child {
-        margin-bottom: 0px;
-    }    
+    .recipecontainer {
+        gap: 20px;
+    } 
 
     .footer {
         padding: 20px 50px;
-        flex-direction: column-reverse;
         text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .recipecontainer {
+        flex-direction: column;
+    }
+
+    .process {
+        width: 400px;
+    }
+        
+    .text {
+        font-size: 12px;
     }
 }
