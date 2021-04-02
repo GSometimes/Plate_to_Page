@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #31363D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Josefin Slab', serif;
+}
+
+.banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
+#dish {
+    height: 450px;
+    width: 375px;
+    position: absolute;
+    opacity: 1;
+    border: 5px solid #ADB1CB;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.banner .content {
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content h2 {
+    color: #F8F8FF;
+    font-size: 65px;
+    position: absolute;
+    padding-left: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+
+.banner header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner header .logo {
+    color: #F8F8FF;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.banner header .toggle {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    color: #F8F8FF;
+}
+
+.about {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.about .contentBx {
+    background: #31363D;
+    padding: 100px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.heading {
+    color: #F8F8FF;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+}
+
+.text {
+    color: #F8F8FF;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.about .imgBx {
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1616886749/Plate%20to%20Page/michelinstar_uf1f1x.gif');
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.ingredients {
+    background: #12222d;
+    padding: 100px;
+    text-align: center;
+}
+
+.ingredients .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.ingredients .container .ingredientBx {
+    position: relative;
+    background: #F7E26B;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A50B17;
+    padding: 20px;
+}
+
+.ingredients .container .ingredientBx img {
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+    object-position: center 1px;
+}
+
+.ingredients .container .ingredientBx:nth-child(2){
+    background: #ADB1CB;
+    color: #F8F8FF;
+}
+
+.ingredients .container .ingredientBx:nth-child(3){
+    background: #A50B17;
+    color: #F8F8FF;
+}
+
+
+.ingredients .container .ingredientBx h2 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.recipecontainer {
+    color: #F8F8FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.ingredientlist {
+    border: 2px solid #F8F8FF;
+    width: 400px;
+    padding: 10px;
+}
+
+.ingredientlist p {
+    padding: 5px;
+    color: #F7E26B;
+}
+
+.ingredientlist ul {
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.process {
+    border: 2px solid #F8F8FF;
+    width: 1000px;
+    padding: 10px;
+}
+
+.process ul {
+    list-style: none;
+    text-align: start;
+    font-size: 12px;
+}
+
+.process li {
+    padding: 5px;
+}
+
+.process p {
+    padding: 5px;
+    color: #F7E26B;
+}
+
+.history {
+    background: #31363D;
+    padding: 100px;
+    padding-top: 300px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contact {
+    padding: 100px;
+    background: #F7E26B;
+    text-align: center;
+}
+
+.thankyoutext {
+    color: #A50B17;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.imgBx2 {
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1616866762/Plate%20to%20Page/3E213431-698B-46C7-9E49-590301BE0B21_of3o3h.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y: 45%;
+    width: 50%;
+}
+
+.redbg {
+    background: #452191 !important;
+}
+
+.form .inputBx {
+    margin-bottom: 40px;
+}
+
+.form .inputBx input {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #F8F8FF;
+    border-bottom: 2px solid #F8F8FF;
+}
+
+.form .inputBx input::placeholder {
+    color: #F8F8FF;
+}
+
+.form .inputBx textarea {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #F8F8FF;
+    min-height: 150px;
+    border-bottom: 2px solid #F8F8FF;
+}
+
+.form .inputBx textarea::placeholder {
+    color: #F8F8FF;
+}
+
+.form .inputBx input[type="submit"] {
+    width: 150px;
+    background: #F8F8FF;
+    color: #111;
+    cursor: pointer;
+    font-weight:400;
+}
+
+.footer {
+    background: #162c3b;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .banner header {
+        padding: 20px 50px;
+    }
+
+    .banner .content h2 {
+        font-size: 46px;
+    }
+
+    .banner .content p {
+        font-size: 16px;
+    }
+
+    #dish {
+        margin-left: 10px;
+    }
+
+    .ingredients .container .ingredientBx:nth-child(3){
+        margin: 0 auto;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about .contentBx,
+    .about .imgBx {
+        width: 100%;
+        padding: 75px;
+        min-height: 400px;
+    }
+
+    .recipecontainer {
+        gap: 20px;
+    } 
+
+    .footer {
+        padding: 20px 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .recipecontainer {
+        flex-direction: column;
+    }
+
+    .process {
+        width: 400px;
+    }
+        
+    .text {
+        font-size: 12px;
+    }
+}
