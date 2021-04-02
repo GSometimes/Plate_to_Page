@@ -150,7 +150,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #A50B17;
+    color: #31363D;
     padding: 20px;
 }
 
@@ -194,7 +194,7 @@
 
 .ingredientlist p {
     padding: 5px;
-    color: #F7E26B;
+    color: #A50B17;
 }
 
 .ingredientlist ul {
@@ -223,7 +223,7 @@
 
 .process p {
     padding: 5px;
-    color: #F7E26B;
+    color: #A50B17;
 }
 
 .process span {
@@ -243,22 +243,22 @@
 
 .contact {
     padding: 100px;
-    background: #F7E26B;
+    background: #ADB1CB;
     text-align: center;
 }
 
 .thankyoutext {
-    color: #A50B17;
+    color: #31363D;
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: 900;
 }
 
 .imgBx2 {
-    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1616866762/Plate%20to%20Page/3E213431-698B-46C7-9E49-590301BE0B21_of3o3h.jpg');
+    background: url('https://res.cloudinary.com/dvug8hy5k/image/upload/v1616866762/Plate%20to%20Page/7CCA4F85-5398-4C61-A870-F643C358843F_uxru5d.jpg');
     background-size: cover;
     background-position: center;
-    background-position-y: 45%;
+    background-position-y: 40%;
     width: 50%;
 }
 
